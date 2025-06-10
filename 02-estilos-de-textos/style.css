@@ -1,0 +1,87 @@
+/* GERAL */
+
+.fundo-alinhamento {
+    padding: 20px;
+    background-color: firebrick;
+}
+
+.fundo-transform{
+    padding: 20px;
+    background-color: darkslateblue;
+}
+
+.fundo-decoration{
+    padding: 20px;
+    background-color: darkolivegreen;
+}
+
+.fundo{
+    padding: 20px;
+    background-color: darkgoldenrod;
+}
+
+html{
+    font-size: 24px;
+}
+
+
+/* TEXT ALIGN */
+
+.alinhado-esquerda{
+    text-align: left;
+}
+
+.alinhado-centro{
+    text-align: center;
+}
+
+.alinhado-direita{
+    text-align: right;
+}
+
+.alinhado-justificado{
+    text-align: justify;
+}
+
+
+/*  TEXT TRANSFORM */
+
+.maiuscula{
+    text-transform: uppercase;
+}
+
+.minuscula{
+    text-transform: lowercase;
+}
+
+.capitalizada{
+    text-transform: capitalize;
+}
+
+
+/* TEXT DECORATION */
+
+.sublinhado{
+    text-decoration: underline;
+}
+
+.linha-sobreposta{
+    text-decoration: line-through;
+}
+
+.sem-decoracao{
+    text-decoration: none;
+}
+
+
+/* LETTER SPACING */
+
+.altura-entre-linhas{
+    line-height: 40px;
+}
+
+/* SOMBRA DE TEXTO */
+
+.sombra-de-texto{
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.5);
+}

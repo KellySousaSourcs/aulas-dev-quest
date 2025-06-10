@@ -1,0 +1,13 @@
+/* Efeito Cascata */
+.container-cascata{
+    background-color: violet;
+}
+
+.container-cascata{
+    background-color: lightblue;
+}
+
+/* Especificidade */
+.container-especificidade p{
+    background-color: lightgreen;
+}
