@@ -1,0 +1,48 @@
+p{
+    font-family: 'Poppins';
+    color: cornflowerblue;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+h2{
+    font-family: 'Athena';
+    color: #061538;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.bg{
+    background-color: #16dc44;
+    background-image: url(./images/cutecat.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.bg-image{
+    width: 513px;
+    height: 340px;
+}
+
+.bg-repeat{
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-size-cover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 540px;
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+    height: 540px;
+}
+
+.bg-position{
+    background: #000 url(./images/cutecat.jpg) no-repeat right top;
+    background-size: 200px auto;
+    height: 540px;
+}

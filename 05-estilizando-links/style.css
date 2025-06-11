@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'YoungMorin';
+    src: url(./fonts/YoungMorin-Regular.ttf);
+}
+
+h1{
+    font-family: 'YoungMorin';
+    font-size: 25px;
+    text-align: center;
+    color: darkblue;
+}
+
+.paragrafo{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+    background-color: rgba(16, 87, 175, 0.759);
+    color: white;
+    border-radius: 40px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 4px solid #436fc7d4;
+    transition: transform 0.2s;
+    text-transform: capitalize;
+}
+
+.google-link{
+    line-height: 35px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.google-link:visited{
+    color: #7ca8d7;
+}
+
+.google-link:active{
+    color: #8bb5e8;
+}
+
+.google-link:hover{
+    color: #c0cdde;
+    text-decoration: underline;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    background-color: rgba(16, 87, 175, 0.9);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.youtube-link{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.youtube-link:visited{
+    color: #7ca8d7;
+}
+
+.youtube-link:active{
+    color: #8bb5e8;
+}
+
+.youtube-link:hover{
+    color: #c0cdde;
+    text-decoration: underline;
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    background-color: rgba(16, 87, 175, 0.9);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .paragrafo {
+        font-size: 14px;
+        padding: 15px;
+        margin: 10px;
+    }
+
+    .google-link, .youtube-link {
+        line-height: 30px;
+        padding: 8px;
+    }
+}
