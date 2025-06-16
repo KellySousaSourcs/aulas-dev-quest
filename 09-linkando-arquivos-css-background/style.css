@@ -1,0 +1,6 @@
+div {
+    background-image: url('../09-linkando-arquivos-css-background/images/cutecat.jpg');
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}

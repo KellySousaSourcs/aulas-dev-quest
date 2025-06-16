@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+.elemento {
+    color: #ee7895;
+    font-size: 32px;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.elemento-estatico {
+    background-color: #a90c55;
+    left: 100px;
+}
+
+.elemento-relativo {
+    left: 100px;
+    position: relative;
+    background-color: #58042b;
+}
+
+.elemento-absoluto {
+    position: absolute;
+    left: 200px;
+    background-color: #2b020f;
+}
+
+.elemento-relativo-com-filhos {
+    position: relative;
+    background-color: #58042b;
+    width: 350px;
+    height: 350px;
+}
+
+.elemento-absoluto-com-pai {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: #2b020f;
+}

@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 1500px;
+    padding-top: 67px; /* Adjust for fixed header height */
+}
+
+header {
+    font-size: 24px;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: yellowgreen;
+    top: 0;
+    color: #dae2d8;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
