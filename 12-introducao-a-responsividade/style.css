@@ -26,11 +26,33 @@ main{
     background-color: teal;
     margin: 0 auto;
     min-width: 320px;
-    max-width: 1024px;
+    max-width: 900px;
     color: white;
     padding: 30px;
 }
 
-body {
-    background-color: rgb(207, 219, 130);
+main .info {
+    font-size: 18px;
+}
+
+main p {
+    font-size: 16px;
+}
+
+.image img {
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .cabecalho {
+        text-align: center;
+    }
+
+    .cabecalho nav {
+        float: none;
+    }
+
+    .cabecalho nav li {
+        display: block;
+    }
 }
